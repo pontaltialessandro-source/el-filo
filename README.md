@@ -18,8 +18,8 @@ python -m http.server 8940
 Poi apri http://localhost:8940
 
 ## Deploy (automatico via GitHub Pages)
-Repo: https://github.com/stefanopontalti07-cloud/el-filo
-Sito live: https://stefanopontalti07-cloud.github.io/el-filo/
+Repo: https://github.com/pontaltialessandro-source/el-filo (trasferito dall'account stefanopontalti07-cloud)
+Sito live: https://pontaltialessandro-source.github.io/el-filo/
 
 GitHub Pages pubblica il branch `main` (root). Ogni `git push` su `main` ripubblica il sito
 in ~1 minuto. Path relativi obbligatori (il sito gira sul sottopercorso `/el-filo/`).
