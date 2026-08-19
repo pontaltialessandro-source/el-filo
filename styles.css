@@ -432,3 +432,20 @@ footer .fine{font-size:.8rem;opacity:.5;margin-top:1rem}
   .navtoggle span,nav.main,nav.main a{transition:none}
   nav.main.open a{transition-delay:0s}
 }
+
+/* --- Pagine legali (privacy, cookie) --- */
+.legal-head{background:var(--wood-800);color:var(--cream);padding:3.5rem 0 2.6rem}
+.legal-head h1{font-size:clamp(2rem,5vw,3rem);margin-bottom:.6rem}
+.legal-head p{color:#d8c6ac;margin:0}
+.legal{max-width:70ch}
+.legal h2{font-size:1.35rem;color:var(--wood-800);margin:2.2rem 0 .7rem}
+.legal h2:first-child{margin-top:0}
+.legal p{margin:0 0 .9rem}
+.legal a{color:var(--wood-800);font-weight:700}
+.legal a:hover{color:var(--ember)}
+.legal-data{margin-top:2.4rem;padding-top:1rem;border-top:1px solid rgba(90,55,34,.25);
+  font-size:.88rem;color:#7a6047}
+/* segnaposto: deve saltare all'occhio finche' non e' compilato */
+.da-completare{background:#ffe9a8;color:#7a4a00;padding:.1rem .4rem;border-radius:3px}
+footer .fine a{color:#c9b393;text-decoration:underline}
+footer .fine a:hover{color:var(--ember-soft)}
