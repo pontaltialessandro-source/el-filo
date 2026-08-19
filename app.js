@@ -33,6 +33,19 @@ document.querySelectorAll('.slideshow').forEach(box=>{
   // niente lavoro inutile quando la scheda non è in primo piano
   document.addEventListener('visibilitychange',()=>document.hidden?ferma():parti());
 });
+// Mappa su richiesta: nessuna chiamata a Google finche' non la apre l'utente
+document.querySelectorAll('.map-box').forEach(box=>{
+  const bottone=box.querySelector('.map-carica');
+  if(!bottone) return;
+  bottone.addEventListener('click',()=>{
+    const f=document.createElement('iframe');
+    f.className='map-embed';
+    f.src=box.dataset.mappa;
+    f.title='Mappa di El Filo, Viale Stazione 64 Levico Terme';
+    f.loading='lazy';
+    box.replaceWith(f);
+  });
+});
 // Scroll reveal
 const io=new IntersectionObserver((entries)=>{
   entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
