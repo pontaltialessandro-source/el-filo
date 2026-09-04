@@ -445,8 +445,6 @@ footer .fine{font-size:.8rem;opacity:.5;margin-top:1rem}
 .legal a:hover{color:var(--ember)}
 .legal-data{margin-top:2.4rem;padding-top:1rem;border-top:1px solid rgba(90,55,34,.25);
   font-size:.88rem;color:#7a6047}
-/* segnaposto: deve saltare all'occhio finche' non e' compilato */
-.da-completare{background:#ffe9a8;color:#7a4a00;padding:.1rem .4rem;border-radius:3px}
 footer .fine a{color:#c9b393;text-decoration:underline}
 footer .fine a:hover{color:var(--ember-soft)}
 
