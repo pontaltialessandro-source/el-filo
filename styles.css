@@ -365,6 +365,12 @@ section{padding:5rem 0}
 .board .ingredients{font-family:var(--font-body);font-size:1.08rem;max-width:44ch;margin:1.3rem auto 0;
   color:#e2d2b8;line-height:1.65}
 .pdm-photo{max-width:460px;margin:2.5rem auto 0;border-radius:8px;overflow:hidden;border:6px solid var(--wood-700);box-shadow:0 16px 40px rgba(0,0,0,.5)}
+/* In attesa della foto nuova: stessa cornice, un biglietto scritto a mano */
+.pdm-attesa{max-width:460px;margin:2.5rem auto 0;border-radius:8px;border:6px solid var(--wood-700);
+  box-shadow:0 16px 40px rgba(0,0,0,.5);background:var(--wood-800);
+  display:flex;align-items:center;justify-content:center;min-height:210px;padding:2rem 1.6rem}
+.pdm-attesa p{font-family:var(--font-hand);font-size:1.95rem;line-height:1.35;
+  color:var(--cream);text-align:center;margin:0}
 
 /* --- Contatti --- */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
